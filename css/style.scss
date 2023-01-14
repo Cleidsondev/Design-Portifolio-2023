@@ -251,12 +251,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    .img_main {
-        background-color: #333;
-        height: auto;
-        width: 50%;
-        border-radius: 20px;
-    }
     .card_sobre {
         display: flex;
         align-items: center;
@@ -267,7 +261,7 @@ body {
         .img_main {
           background: url(/IMG/cleidson.jpg) center;
           background-size: cover;
-          height: 30rem;
+          height: 500px;
           width: 30%;
         }
         .sobre {
@@ -709,6 +703,9 @@ color: #1976D2;
 #contact {
   padding: 20px;
 }
+
+
+
 }
 @media screen and (max-width: 400px) {
   #main_skills {
@@ -717,6 +714,56 @@ color: #1976D2;
   #portifolio {
     margin-bottom: 130rem;
   }
+
+  #main_sobre {
+    background-color: #cd201f;
+    padding: 16px;
+
+    
+
+    .card_sobre {
+            background-color: #0759ED;
+            width: fill;
+            
+      .img_main {
+        width: 300px;
+        margin: 0 a;
+      }
+
+      .sobre {
+        background-color: #0759ED;
+        width: 20px;
+        margin: 0 auto;
+
+      }
+    }
+  }
+
+  #main_sobre {
+    padding: 16px;
+
+
+    .card_sobre {
+            width: fill;
+            
+      .img_main {
+        width: 300px;
+        margin: 0 auto
+      }
+
+      .sobre {
+        margin-top: 20px;
+        .button_contained {
+          width: 300px;
+          margin: 0 auto;
+        }
+      }
+
+  }
+
+  
+  
+}
 
   
   
@@ -777,7 +824,7 @@ color: #1976D2;
   }
   .contact-container {
     
-    max-height: 800px;
+    max-height: 900px;
 
       .footer {
         .button_contained {

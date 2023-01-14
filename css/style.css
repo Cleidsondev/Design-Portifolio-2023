@@ -213,12 +213,6 @@ body {
   flex-direction: column;
   padding: 40px;
 }
-#main_sobre .img_main {
-  background-color: #333;
-  height: auto;
-  width: 50%;
-  border-radius: 20px;
-}
 #main_sobre .card_sobre {
   display: flex;
   align-items: center;
@@ -230,7 +224,7 @@ body {
 #main_sobre .card_sobre .img_main {
   background: url(/IMG/cleidson.jpg) center;
   background-size: cover;
-  height: 30rem;
+  height: 500px;
   width: 30%;
 }
 #main_sobre .card_sobre .sobre {
@@ -614,6 +608,44 @@ body {
   #portifolio {
     margin-bottom: 130rem;
   }
+  #main_sobre {
+    background-color: #cd201f;
+    padding: 16px;
+  }
+  #main_sobre .card_sobre {
+    background-color: #0759ED;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill;
+  }
+  #main_sobre .card_sobre .img_main {
+    width: 300px;
+    margin: 0 a;
+  }
+  #main_sobre .card_sobre .sobre {
+    background-color: #0759ED;
+    width: 20px;
+    margin: 0 auto;
+  }
+  #main_sobre {
+    padding: 16px;
+  }
+  #main_sobre .card_sobre {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill;
+  }
+  #main_sobre .card_sobre .img_main {
+    width: 300px;
+    margin: 0 auto;
+  }
+  #main_sobre .card_sobre .sobre {
+    margin-top: 20px;
+  }
+  #main_sobre .card_sobre .sobre .button_contained {
+    width: 300px;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 480px) {
   body, html {
@@ -654,7 +686,7 @@ body {
     margin-bottom: 15rem;
   }
   .contact-container {
-    max-height: 800px;
+    max-height: 900px;
   }
   .contact-container .footer .button_contained {
     width: -webkit-fill-available;
