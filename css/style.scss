@@ -706,46 +706,27 @@ color: #1976D2;
 
 
 
+
+
 }
 @media screen and (max-width: 400px) {
+  #main__apr {
+    margin-top: 38px;
+  }
+  
   #main_skills {
     margin-bottom: 0em;
   }
   #portifolio {
-    margin-bottom: 130rem;
-  }
-
-  #main_sobre {
-    background-color: #cd201f;
-    padding: 16px;
-
-    
-
-    .card_sobre {
-            background-color: #0759ED;
-            width: fill;
-            
-      .img_main {
-        width: 300px;
-        margin: 0 a;
-      }
-
-      .sobre {
-        background-color: #0759ED;
-        width: 20px;
-        margin: 0 auto;
-
-      }
-    }
+    margin-bottom: 150rem;
   }
 
   #main_sobre {
     padding: 16px;
 
-
     .card_sobre {
             width: fill;
-            
+                    
       .img_main {
         width: 300px;
         margin: 0 auto
@@ -763,10 +744,13 @@ color: #1976D2;
 
   
   
+} 
+
+#contact {
+  margin-top: 50px;
+  height: auto;
 }
 
-  
-  
 }
 
 @media screen and (max-width: 480px)
